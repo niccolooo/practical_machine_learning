@@ -11,9 +11,17 @@ INPUT DATA:
 
 Input data consist of a set of time series corresponding to different sessions of Unilateral Dumbbell Biceps Curl which have been done in five different fashions (classe): {A,B,C,D,E}. Training and test sets are provided. 
 
+A few variables in the training set are not present in the test set.
+
+In total, 19622 records with 160 features are included in the training set. All the average values present NA. Only 406 records are complete.
+
+Each time series is identified by a different num_window variable. Six different users performed the test.
+
 OBJECTIVE:
 
-The objective is to train a predictor in order to identify the "classe".
+The objective is to train a predictor in order to identify the "classe". 
+
+
 
 ```{r}
 summary(cars)
